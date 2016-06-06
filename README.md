@@ -38,16 +38,16 @@ console.log(whichModule(require('something')))
 
 ## API
 
-### `whichModule(anything)`
+### `whichModule(exported)`
 
 Return the [`module` object](https://nodejs.org/api/modules.html#modules_the_module_object),
 if any, that represents the given argument in the `require.cache`.
 
-`anything` can be anything that was previously `require()`d or `import`ed as a
-module, submodule, or dependency - which actually means `anything` is the
-`exports` of the `require()`d module.
+`exported` can be anything that was previously `require()`d or `import`ed as a
+module, submodule, or dependency - which means `exported` is identical to the
+`module.exports` returned by this method.
 
-If `anything` did not come from the `exports` of a `module` in `require.cache`,
+If `exported` did not come from the `exports` of a `module` in `require.cache`,
 then this method returns `null`.
 
 ## License

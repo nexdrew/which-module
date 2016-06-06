@@ -23,12 +23,12 @@ const whichModule = require('which-module')
 
 console.log(whichModule(require('something')))
 // Module {
-//   id: '/path/to/project/node_modules/something/index.js'
+//   id: '/path/to/project/node_modules/something/index.js',
 //   exports: [Function],
-//   parent: ...
+//   parent: ...,
 //   filename: '/path/to/project/node_modules/something/index.js',
 //   loaded: true,
-//   children: []
+//   children: [],
 //   paths: [ '/path/to/project/node_modules/something/node_modules',
 //            '/path/to/project/node_modules',
 //            '/path/to/node_modules',

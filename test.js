@@ -32,10 +32,10 @@ test('returns falsy for system module', (t) => {
 
 test('returns falsy for non-required', (t) => {
   // note that a module may export a boolean (e.g. supports-color)
+  // or undefined (e.g. lodash/_Reflect.js)
   t.falsy(whichModule(t))
   t.falsy(whichModule({}))
   t.falsy(whichModule(function () {}))
   t.falsy(whichModule('foobar'))
   t.falsy(whichModule(String))
-  t.falsy(whichModule())
 })

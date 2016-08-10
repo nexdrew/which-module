@@ -32,9 +32,9 @@
   },
   "homepage": "https://github.com/nexdrew/which-module#readme",
   "devDependencies": {
-    "ava": "^0.15.2",
+    "ava": "^0.16.0",
     "coveralls": "^2.11.9",
-    "nyc": "^6.4.4",
+    "nyc": "^7.1.0",
     "standard": "^7.1.2",
     "standard-version": "^2.3.0"
   }

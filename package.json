@@ -35,7 +35,7 @@
     "ava": "^0.16.0",
     "coveralls": "^2.11.9",
     "nyc": "^8.1.0",
-    "standard": "^7.1.2",
+    "standard": "^8.0.0",
     "standard-version": "^2.3.0"
   }
 }

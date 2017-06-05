@@ -1,5 +1,7 @@
 # which-module
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nexdrew/which-module.svg)](https://greenkeeper.io/)
+
 > Find the module object for something that was require()d
 
 [![Build Status](https://travis-ci.org/nexdrew/which-module.svg?branch=master)](https://travis-ci.org/nexdrew/which-module)

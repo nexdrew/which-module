@@ -1,6 +1,6 @@
-import test from 'ava'
-import whichModule from './'
-import path from 'path'
+const test = require('ava')
+const whichModule = require('./')
+const path = require('path')
 
 test('finds required local module', (t) => {
   const indexModule = whichModule(whichModule)

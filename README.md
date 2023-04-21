@@ -54,3 +54,5 @@ then this method returns `null`.
 ## License
 
 ISC © Contributors
+
+[opensourceregistry_package_id]: # (458260416784685e5ef3091fee54001785dd4360406aa3000315ff256eef6878)
